@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEngine;
 using XLua;
 
@@ -11,7 +13,8 @@ public class BasicExample : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 
-      Basic();
+        CustomLoader();
+  
 	}
 
 
@@ -39,6 +42,27 @@ public class BasicExample : MonoBehaviour
        env.DoString("require 'luaExample'");
     }
 
+
+    void CustomLoader()
+    {
+       env=new LuaEnv();
+       env.AddLoader(EAELoader);
+       env.AddLoader(RealLoader);
+       env.DoString("require 'luaExample'");
+    }
+
+
+    private byte[] EAELoader(ref string filePath)
+    {
+        Debug.Log(" Enter EAELoader function!");
+        return null;
+    }
+
+
+    private byte[] RealLoader(ref string filePath)
+    {
+      return  Encoding.UTF8.GetBytes(File.ReadAllText(Application.streamingAssetsPath + "/_Lua/" + filePath + ".lua.txt"));
+    }
 
     void OnDestroy()
     {
