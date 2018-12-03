@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 563643460
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 224776ca3bca207b039e50acffa04024
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3c57d10c64aca01622a197be983738e8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Plane.prefab
+Dependencies:
+- C:/Users/u1157989/Documents/GitHub/GamePlay_Presentation/Client/Assets/../../Platform/Windows/common/mat
