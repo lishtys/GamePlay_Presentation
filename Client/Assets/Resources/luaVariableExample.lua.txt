@@ -1,0 +1,17 @@
+ID=1001221001
+Name="Chen Mi"
+Male= true
+
+MeshData= 
+{
+	position="1,2,1",
+	scale="1",
+}
+
+function Test()
+	print("This is Test Function!")
+end
+
+function Test1(a,b)
+	print(a+b)
+end
