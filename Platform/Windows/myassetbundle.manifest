@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3197016343
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99f48c7ea166f10c8dde33d26a42dff4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 60be2397f6cc15cc07731d36e667f913
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Plane.prefab
+Dependencies: []

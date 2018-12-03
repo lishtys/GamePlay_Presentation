@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1924590258
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: myassetbundle
+      Dependencies: {}
+    Info_1:
+      Name: unitychan.eae
+      Dependencies: {}
