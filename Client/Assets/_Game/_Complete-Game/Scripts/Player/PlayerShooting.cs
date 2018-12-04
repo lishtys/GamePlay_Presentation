@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnitySampleAssets.CrossPlatformInput;
+using XLua;
 
 namespace CompleteProject
 {
+    [Hotfix]
     public class PlayerShooting : MonoBehaviour
     {
         public int damagePerShot = 20;                  // The damage inflicted by each bullet.
@@ -33,6 +36,13 @@ namespace CompleteProject
             gunAudio = GetComponent<AudioSource> ();
             gunLight = GetComponent<Light> ();
 			//faceLight = GetComponentInChildren<Light> ();
+        }
+
+
+        [CSharpCallLua]
+        void Start()
+        {
+           
         }
 
 
