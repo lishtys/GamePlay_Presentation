@@ -1,0 +1,11 @@
+
+xlua.private_accessible(CS.CompleteProject.EnemyManager)
+xlua.hotfix(CS.CompleteProject.EnemyManager,'Spawn',function(self)
+mytable = {self.spawnPoints}
+print(#mytable)
+local spawnIdx= CS.UnityEngine.Random.Range (0, 1)
+spawnIdx=math.floor(spawnIdx)
+
+CS.UnityEngine.GameObject.Instantiate (self.enemy, self.spawnPoints[spawnIdx].position, self.spawnPoints[spawnIdx].rotation);
+end
+)

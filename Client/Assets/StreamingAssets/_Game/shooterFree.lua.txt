@@ -1,0 +1,1 @@
+xlua.hotfix(CS.CompleteProject.EnemyManager,'Spawn',nil)
