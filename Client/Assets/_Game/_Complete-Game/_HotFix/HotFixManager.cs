@@ -12,7 +12,7 @@ public class HotFixManager : MonoBehaviour
 
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
 
         luaEnv = new LuaEnv();
@@ -24,7 +24,7 @@ public class HotFixManager : MonoBehaviour
 
     private byte[] CustomLoader(ref string filePath)
     {
-        var fPath = Application.streamingAssetsPath + "/_Game/" + filePath + ".lua.txt";
+        var fPath = Application.streamingAssetsPath + "/_Assets/_Game/" + filePath + ".lua.txt";
         return Encoding.UTF8.GetBytes(File.ReadAllText(fPath));
     }
 

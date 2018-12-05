@@ -1,1 +1,0 @@
-print("Go Split From luaExample.txt");
