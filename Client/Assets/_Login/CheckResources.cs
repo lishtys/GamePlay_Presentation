@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
@@ -78,9 +77,7 @@ public class CheckResources : MonoBehaviour
 
     void DownloadFinish()
     {
-#if UNITY_EDITOR
-       AssetDatabase.Refresh();
-#endif
+
         InfoText.text +=  "Complete ! \n";
         EnableStartButton();
     }

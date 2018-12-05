@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1245526848
+CRC: 1526750350
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 94883e654b34131efe5edbf7daea8380
+    Hash: 65078473f32348e4cabe1e72f10803e1
   TypeTreeHash:
     serializedVersion: 2
     Hash: ac00e3ac4a3082e54e4c0802c59d28ec
@@ -26,4 +26,4 @@ ClassTypes:
 Assets:
 - Assets/Prefab/Sphere.prefab
 Dependencies:
-- C:/Users/u1157989/Documents/GitHub/GamePlay_Presentation/Client/Assets/../../Platform/Windows/common/mat
+- D:/Github/GamePlay_Presentation/Client/Assets/../../Platform/Windows/common/mat

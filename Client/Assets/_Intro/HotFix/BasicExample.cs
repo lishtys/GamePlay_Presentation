@@ -61,7 +61,7 @@ public class BasicExample : MonoBehaviour
 
     private byte[] RealLoader(ref string filePath)
     {
-      return  Encoding.UTF8.GetBytes(File.ReadAllText(Application.streamingAssetsPath + "/_Lua/" + filePath + ".lua.txt"));
+      return  Encoding.UTF8.GetBytes(File.ReadAllText(Application.streamingAssetsPath + "/_Assets/_Lua/" + filePath + ".lua.txt"));
     }
 
     void OnDestroy()
