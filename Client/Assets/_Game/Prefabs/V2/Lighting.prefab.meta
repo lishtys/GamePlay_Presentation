@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b018a7c784f54a64da24dab652ec48c3
+timeCreated: 1544047619
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: game/env
+  assetBundleVariant: eae

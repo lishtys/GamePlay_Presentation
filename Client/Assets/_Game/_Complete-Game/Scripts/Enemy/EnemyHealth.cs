@@ -46,8 +46,9 @@ namespace CompleteProject
         public void TakeDamage (int amount, Vector3 hitPoint)
         {
             // If the enemy is dead...
-            if(isDead)
+            if (isDead)
                 // ... no need to take damage so exit the function.
+
                 return;
 
             // Play the hurt sound effect.
@@ -85,8 +86,11 @@ namespace CompleteProject
             // Change the audio clip of the audio source to the death clip and play it (this will stop the hurt clip playing).
             enemyAudio.clip = deathClip;
             enemyAudio.Play ();
+            Invoke("StartSinking",2);
         }
 
+
+      
 
         public void StartSinking ()
         {

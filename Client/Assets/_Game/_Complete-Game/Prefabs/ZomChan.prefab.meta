@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8fb9d7f7ae5751942994f1707fc31e6d
+timeCreated: 1544050267
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: game/enemy
+  assetBundleVariant: eae

@@ -21,6 +21,9 @@ namespace CompleteProject
         [LuaCallCSharp]
         void Spawn()
         {
+
+            if(enemy==null) return;
+
             // If the player has no health left...
             if(playerHealth.currentHealth <= 0f)
             {

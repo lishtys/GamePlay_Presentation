@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3868981672
+CRC: 3013943595
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -17,5 +17,8 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: common/mat
     Info_4:
+      Name: game/enemy.eae
+      Dependencies: {}
+    Info_5:
       Name: game/env.eae
       Dependencies: {}
