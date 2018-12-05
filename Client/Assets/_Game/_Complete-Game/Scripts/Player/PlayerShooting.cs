@@ -42,6 +42,7 @@ namespace CompleteProject
         [CSharpCallLua]
         void Start()
         {
+
            
         }
 
