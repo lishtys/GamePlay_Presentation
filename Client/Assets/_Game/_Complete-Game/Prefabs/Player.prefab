@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 12000000}
   - component: {fileID: 11400000}
   - component: {fileID: 10800000}
+  - component: {fileID: 114175432853703766}
   m_Layer: 0
   m_Name: GunBarrelEnd
   m_TagString: Untagged
@@ -230,7 +231,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -254,7 +255,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &8200002
 AudioSource:
   m_ObjectHideFlags: 1
@@ -589,7 +590,7 @@ SkinnedMeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_Materials:
   - {fileID: 2100000, guid: 3ea44298aa419344dbdcf87dd1a50533, type: 2}
   m_StaticBatchInfo:
@@ -4146,3 +4147,31 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100006}
   m_IsPrefabParent: 1
+--- !u!114 &114175432853703766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c63be2a8918c741863160b9d9da122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletColors:
+  - {r: 1, g: 0.8666667, b: 0.11764706, a: 1}
+  - {r: 0.061851226, g: 0.7647059, b: 0.35753486, a: 1}
+  - {r: 0.007352948, g: 1, b: 0.9178501, a: 1}
+  - {r: 1, g: 0, b: 0.22758627, a: 1}
+  bounceDuration: 10
+  pierceDuration: 10
+  damagePerShot: 20
+  numberOfBullets: 1
+  timeBetweenBullets: 0.15
+  angleBetweenBullets: 10
+  range: 100
+  shootableMask:
+    serializedVersion: 2
+    m_Bits: 512
+  bullet: {fileID: 100000, guid: d6c526ea9d76cdd468b8425ad07a3ded, type: 2}
+  bulletSpawnAnchor: {fileID: 400006}

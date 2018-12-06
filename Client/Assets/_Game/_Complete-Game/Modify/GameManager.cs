@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using XLua;
 
+[Hotfix]
 public class GameManager : MonoBehaviour
 {
 
     public List<CompleteProject.EnemyManager> EnemyManagers;
-
+    private int tick = 0;
     public GameObject EnemyGameObject;
     private string assetBundleDir;
 
@@ -27,6 +29,23 @@ public class GameManager : MonoBehaviour
         LoadEnemy();
 	}
 
+    void RandomBullet()
+    {
+       var ps=  FindObjectOfType<PlayerShooting>();
+      var r=  Random.Range(0, 10);
+
+        if(r%3==0)
+        ps.BounceTimer = 0;
+        if(r%3==1)
+        ps.PierceTimer = 0;
+        if (r % 3 == 2)
+        {
+            ps.BounceTimer = 10;
+            ps.PierceTimer = 10;
+        }
+
+    }
+
 
     void AddEnemy(string assetBundleTag,string resName)
     {
@@ -37,7 +56,7 @@ public class GameManager : MonoBehaviour
         EnemyDictionary[assetBundleTag].Add(resName);
     }
 
-
+    [LuaCallCSharp]
     void InitEnemyPool()
     {
         AddEnemy("game/enemy.eae", "ZomBunny");
@@ -78,6 +97,11 @@ public class GameManager : MonoBehaviour
         );
     }
 
+    [LuaCallCSharp]
+    void Update()
+    {
+
+    }
 
     void LoadEnemy()
     {

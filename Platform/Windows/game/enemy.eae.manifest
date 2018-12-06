@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 918478524
+CRC: 3979172177
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c240f3049d87cec2911461f42ca48e5c
+    Hash: 0a7bb5af15cda91a551d1e53e7b7a4ce
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ee4a9224869d849e4f4fbaa1e3c17970
+    Hash: 4b9c273d01c3dc13b564f18f2dba7723
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,13 +42,19 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: f6ea2510642767944b1b1c85db945f45, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: aa10cc87aff30c04dbe0aa648f5b6adc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: bc28e8f7dbbe7494a8d67b6f5f3636bc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6f58c1d9ce56e1749830b8aebe8ba3bf, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 01ceeb4d84dc913448995ca86c428133, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 6ea9a6ed18654d14db02bf0076cfe488, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 18aa0d1f170baa54a95a79a0f799bbab, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -76,4 +82,5 @@ Assets:
 - Assets/_Game/_Complete-Game/Prefabs/Hellephant.prefab
 - Assets/_Game/_Complete-Game/Prefabs/ZomChan.prefab
 - Assets/_Game/_Complete-Game/Prefabs/ZomBear.prefab
+- Assets/_Game/_Complete-Game/Prefabs/CHellephant.prefab
 Dependencies: []
