@@ -1,7 +1,0 @@
-ManifestFileVersion: 0
-CRC: 3216267200
-AssetBundleManifest:
-  AssetBundleInfos:
-    Info_0:
-      Name: npc/unitychan.eae
-      Dependencies: {}

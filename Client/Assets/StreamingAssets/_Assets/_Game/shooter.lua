@@ -2,8 +2,6 @@
 xlua.private_accessible(CS.CompleteProject.EnemyManager)
 xlua.hotfix(CS.CompleteProject.EnemyManager,'Spawn',function(self)
 
-if self.enemy != nil then
-
 if self.playerHealth.currentHealth>50 then self.spawnTime = 1
 end
 
@@ -13,8 +11,6 @@ local spawnIdx= CS.UnityEngine.Random.Range (0, #mytable)
 spawnIdx=math.floor(spawnIdx)
 
 CS.UnityEngine.GameObject.Instantiate (self.enemy, self.spawnPoints[spawnIdx].position, self.spawnPoints[spawnIdx].rotation);
-end
-
 end
 )
 
