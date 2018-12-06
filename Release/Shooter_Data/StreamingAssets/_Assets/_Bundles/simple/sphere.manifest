@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1526750350
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65078473f32348e4cabe1e72f10803e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac00e3ac4a3082e54e4c0802c59d28ec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Sphere.prefab
+Dependencies:
+- D:/Github/GamePlay_Presentation/Client/Assets/../../Platform/Windows/common/mat

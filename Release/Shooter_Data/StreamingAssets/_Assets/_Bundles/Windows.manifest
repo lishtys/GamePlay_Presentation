@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2764603780
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: unitychan.eae
+      Dependencies: {}
+    Info_1:
+      Name: common/mat
+      Dependencies: {}
+    Info_2:
+      Name: simple/sphere
+      Dependencies:
+        Dependency_0: common/mat
+    Info_3:
+      Name: simple/plane
+      Dependencies:
+        Dependency_0: common/mat
+    Info_4:
+      Name: game/enemy.eae
+      Dependencies: {}
+    Info_5:
+      Name: game/env.eae
+      Dependencies: {}

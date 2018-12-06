@@ -1,0 +1,4 @@
+xlua.hotfix(CS.CompleteProject.EnemyManager,'Spawn',nil)
+xlua.hotfix(CS.CompleteProject.PlayerShooting,'Start',nil)
+xlua.hotfix(CS.GameManager,'Update',nil)
+xlua.hotfix(CS.GameManager,'InitEnemyPool',nil)

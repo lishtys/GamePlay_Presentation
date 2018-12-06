@@ -132,6 +132,7 @@ public static class ZipUtility
 
     public static bool UnzipFile(Stream _inputStream, string _outputPath, string _password = null, UnzipCallback _unzipCallback = null)
     {
+        ICSharpCode.SharpZipLib.Zip.ZipConstants.DefaultCodePage = System.Text.Encoding.UTF8.CodePage;
         if ((null == _inputStream) || string.IsNullOrEmpty(_outputPath))
         {
             if (null != _unzipCallback)
